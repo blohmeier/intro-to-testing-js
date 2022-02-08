@@ -99,4 +99,10 @@ describe('isVowel', function() {
     it('should return the boolean true when executed', function() {
         expect(isVowel(4)).toBe(false);
     });
+    it('should return the boolean true when executed', function() {
+        expect(isVowel(true)).toBe(false);
+    });
+    it('should return the boolean true when executed', function() {
+        expect(isVowel(false)).toBe(false);
+    });
 });
