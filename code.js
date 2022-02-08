@@ -42,6 +42,7 @@ function isVowel(x) {
         return false;
     }
 }
+console.log(isVowel());
 
 // Clipboard (DO NOT USE BELOW)
 // sayHello("Jane");
