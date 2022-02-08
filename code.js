@@ -14,14 +14,25 @@
 //     }
 // }
 //isFive function
-function isFive(input) {
-    if (input === 5 || input === "5") {
-        return true;
-    } else {
+// function isFive(input) {
+//     if (input === 5 || input === "5") {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+//isEven function
+function isEven(input) {
+    if (input === true || input === false || input === "") {
         return false;
-    }
+    } else
+        if (input % 2 === 0 ) {
+            return true;
+        } else if (input % 2 !== 0) {
+            return false;
+        }
 }
-
+//console.log(isEven(false));
 // Clipboard (DO NOT USE BELOW)
 // sayHello("Jane");
 // // function sayHello(name){
