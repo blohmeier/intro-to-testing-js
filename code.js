@@ -7,8 +7,12 @@
 // }
 //sayHello function
 function sayHello(name){
-    return "Hello, "  +  name + "!"
+    if (typeof(name) === boolean) {
+        return "Hello, World!"
+    } else {
+        return "Hello, "  +  name + "!"
     }
+}
 
 // Clipboard (DO NOT USE BELOW)
 // sayHello("Jane");
