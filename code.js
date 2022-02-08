@@ -6,11 +6,19 @@
 //     return "Hello, World!";
 // }
 //sayHello function
-function sayHello(name){
-    if (typeof(name) === boolean) {
-        return "Hello, World!"
+// function sayHello(name){
+//     if (typeof(name) === boolean) {
+//         return "Hello, World!"
+//     } else {
+//         return "Hello, "  +  name + "!"
+//     }
+// }
+//isFive function
+function isFive(input) {
+    if (input === 5 || input === "5") {
+        return true;
     } else {
-        return "Hello, "  +  name + "!"
+        return false;
     }
 }
 
