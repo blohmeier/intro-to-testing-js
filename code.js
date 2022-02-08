@@ -34,15 +34,20 @@
 // }
 //console.log(isEven(false));
 //isVowel function
-function isVowel(x) {
-    var vowels='aeiouAEIOU';
-    if (vowels.indexOf(x) !== -1) {
-        return true;
-    } else {
-        return false;
-    }
+// function isVowel(x) {
+//     var vowels='aeiouAEIOU';
+//     if (vowels.indexOf(x) !== -1) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// console.log(isVowel());
+//add function
+function add(x, y) {
+    return parseInt(x) + parseInt(y);
 }
-console.log(isVowel());
+//console.log(add());
 
 // Clipboard (DO NOT USE BELOW)
 // sayHello("Jane");
