@@ -47,35 +47,56 @@
 //     });
 // });
 // Unit tests for the isEven function
-describe('isEven', function() {
+// describe('isEven', function() {
+//     it('should be a defined function', function() {
+//         expect(typeof isEven).toBe('function');
+//     });
+//     it('should return a boolean no matter the input', function() {
+//         expect(typeof isEven()).toBe("boolean");
+//     });
+//     it('should return the boolean true when executed', function() {
+//         expect(isEven(2)).toBe(true);
+//     });
+//     it('should return the boolean true when executed', function() {
+//         expect(isEven(-4)).toBe(true);
+//     });
+//     it('should return the boolean false when executed', function() {
+//         expect(isEven(3)).toBe(false);
+//     });
+//     it('should return the boolean false when executed', function() {
+//         expect(isEven("banana")).toBe(false);
+//     });
+//     it('should return the boolean true when executed', function() {
+//         expect(isEven("8")).toBe(true);
+//     });
+//     it('should return the boolean false when executed', function() {
+//         expect(isEven("infinity")).toBe(false);
+//     });
+//     it('should return the boolean false when executed', function() {
+//         expect(isEven(true)).toBe(false);
+//     });
+//     it('should return the boolean false when executed', function() {
+//         expect(isEven(false)).toBe(false);
+//     });
+// });
+// Unit tests for the isVowel function
+describe('isVowel', function() {
     it('should be a defined function', function() {
-        expect(typeof isEven).toBe('function');
+        expect(typeof isVowel).toBe('function');
     });
     it('should return a boolean no matter the input', function() {
-        expect(typeof isEven()).toBe("boolean");
+        expect(typeof isVowel()).toBe("boolean");
     });
     it('should return the boolean true when executed', function() {
-        expect(isEven(2)).toBe(true);
+        expect(isVowel("a")).toBe(true);
     });
     it('should return the boolean true when executed', function() {
-        expect(isEven(-4)).toBe(true);
-    });
-    it('should return the boolean false when executed', function() {
-        expect(isEven(3)).toBe(false);
-    });
-    it('should return the boolean false when executed', function() {
-        expect(isEven("banana")).toBe(false);
+        expect(isVowel("A")).toBe(true);
     });
     it('should return the boolean true when executed', function() {
-        expect(isEven("8")).toBe(true);
+        expect(isVowel("y")).toBe(false);
     });
-    it('should return the boolean false when executed', function() {
-        expect(isEven("infinity")).toBe(false);
-    });
-    it('should return the boolean false when executed', function() {
-        expect(isEven(true)).toBe(false);
-    });
-    it('should return the boolean false when executed', function() {
-        expect(isEven(false)).toBe(false);
+    it('should return the boolean true when executed', function() {
+        expect(isVowel(4)).toBe(false);
     });
 });

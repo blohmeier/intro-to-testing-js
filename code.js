@@ -22,17 +22,27 @@
 //     }
 // }
 //isEven function
-function isEven(input) {
-    if (input === true || input === false || input === "") {
-        return false;
-    } else
-        if (input % 2 === 0 ) {
-            return true;
-        } else if (input % 2 !== 0) {
-            return false;
-        }
-}
+// function isEven(input) {
+//     if (input === true || input === false || input === "") {
+//         return false;
+//     } else
+//         if (input % 2 === 0 ) {
+//             return true;
+//         } else if (input % 2 !== 0) {
+//             return false;
+//         }
+// }
 //console.log(isEven(false));
+//isVowel function
+function isVowel(x) {
+    var vowels='aeiouAEIOU';
+    if (vowels.indexOf(x) !== -1) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 // Clipboard (DO NOT USE BELOW)
 // sayHello("Jane");
 // // function sayHello(name){
