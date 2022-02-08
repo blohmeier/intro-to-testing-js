@@ -45,9 +45,9 @@
 // console.log(isVowel());
 //add function
 function add(x, y) {
-    return parseInt(x) + parseInt(y);
+        return parseInt(x) + parseInt(y);
 }
-//console.log(add());
+console.log(add("banana","split"));
 
 // Clipboard (DO NOT USE BELOW)
 // sayHello("Jane");

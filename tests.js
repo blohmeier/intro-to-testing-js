@@ -126,4 +126,10 @@ describe('isVowel', function() {
     it('should return the given value when executed', function() {
         expect(add("5", 6)).toBe(11);
     });
+    it('should return the given value when executed', function() {
+        expect(add("-4", 10)).toBe(6);
+    });
+    it('should return the given value when executed', function() {
+        expect(add("banana", "split")).toBe(NaN);
+    });
 });
