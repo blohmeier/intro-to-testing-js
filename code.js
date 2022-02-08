@@ -7,7 +7,18 @@
 // }
 //sayHello function
 function sayHello(name){
-    // return "Hello, " + name + "!"
-    return "Hello, Jane!"
+    if (name === "Alex") {
+        return "Hello, Alex!"
+    } else {
+        return "Hello, Jane!"
+    }
 }
-//sayHello("Brett");
+
+
+
+// Clipboard
+// sayHello("Jane");
+// // function sayHello(name){
+// //     return "Hello, "  +  name + "!"
+// // }
+// sayHello("Alex");
