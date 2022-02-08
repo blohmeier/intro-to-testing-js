@@ -14,8 +14,6 @@ function sayHello(name){
     }
 }
 
-
-
 // Clipboard
 // sayHello("Jane");
 // // function sayHello(name){
