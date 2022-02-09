@@ -105,10 +105,10 @@ describe('isVowel', function() {
     it('should return the boolean false when executed', function() {
         expect(isVowel(false)).toBe(false);
     });
-    it('should return the boolean false when executed', function() {
+    it('should return the boolean false when executed with string', function() {
         expect(isVowel("banana")).toBe(false);
     });
-    it('should return the boolean false when executed', function() {
+    it('should return the boolean false when executed without var values', function() {
         expect(isVowel()).toBe(false);
     });
 });
@@ -117,25 +117,25 @@ describe('add', function() {
     it('should be a defined function', function() {
         expect(typeof add).toBe('function');
     });
-    it('should return the given value when executed', function() {
+    it('should return arithmetic result when executed with two pos nums', function() {
         expect(add(2, 3)).toBe(5);
     });
-    it('should return the given value when executed', function() {
+    it('should return arithmetic result when executed with two neg nums', function() {
         expect(add(-3, -9)).toBe(-12);
     });
-    it('should return the given value when executed', function() {
+    it('should return arithmetic result when executed with string number and number', function() {
         expect(add("5", 6)).toBe(11);
     });
-    it('should return the given value when executed', function() {
+    it('should return arithmetic result when executed with neg num and pos num', function() {
         expect(add("-4", 10)).toBe(6);
     });
-    it('should return the given value when executed', function() {
+    it('should return "NaN" when executed with two strings', function() {
         expect(add("banana", "split")).toBe("NaN");
     });
-    it('should return the given value when executed', function() {
+    it('should return "NaN" when executed with number and string', function() {
         expect(add(2, "apples")).toBe("NaN");
     });
-    it('should return the given value when executed', function() {
+    it('should return "NaN" when executed without variables', function() {
         expect(add()).toBe("NaN");
     });
 });
