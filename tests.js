@@ -130,6 +130,12 @@ describe('isVowel', function() {
         expect(add("-4", 10)).toBe(6);
     });
     it('should return the given value when executed', function() {
-        expect(add("banana", "split")).toBe(NaN);
+        expect(add("banana", "split")).toBe("NaN");
+    });
+    it('should return the given value when executed', function() {
+        expect(add(2, "apples")).toBe("NaN");
+    });
+    it('should return the given value when executed', function() {
+        expect(add()).toBe("NaN");
     });
 });

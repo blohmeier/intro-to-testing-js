@@ -45,9 +45,15 @@
 // console.log(isVowel());
 //add function
 function add(x, y) {
-        return parseInt(x) + parseInt(y);
+        if (isNaN(parseInt(x)) || isNaN(parseInt(y))) {
+                return "NaN";
+        } else {
+                return parseInt(x) + parseInt(y);
+        }
 }
 console.log(add("banana","split"));
+console.log(add(2,"apples"));
+console.log(add());
 
 // Clipboard (DO NOT USE BELOW)
 // sayHello("Jane");
