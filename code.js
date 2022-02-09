@@ -54,19 +54,3 @@ function add(x, y) {
 console.log(add("banana","split"));
 console.log(add(2,"apples"));
 console.log(add());
-
-// Clipboard (DO NOT USE BELOW)
-// sayHello("Jane");
-// // function sayHello(name){
-// //     return "Hello, "  +  name + "!"
-// // }
-// sayHello("Alex");
-//function sayHello(name){
-//     if (name === "Alex") {
-//         return "Hello, Alex!"
-//     } else if (name === "Pat") {
-//         return "Hello, Pat!"
-//     } else {
-//         return "Hello, Jane!"
-//     }
-// }
